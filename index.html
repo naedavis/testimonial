@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Owl Carousel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Set up your HTML -->
+    <div class="owl-carousel">
+      <div class="layout">
+        <img class="image" src="./Images/Demi.jpg" alt="picture of Demi" />
+        <div>
+          <h2>Demi</h2>
+          <h3>Software Developer</h3>
+          <q>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
+            nesciunt amet, assumenda libero, doloribus molestias alias odio
+            neque voluptas, dolor fugit. Quis amet perspiciatis corporis quasi
+            sint repellat enim voluptates.
+          </q>
+        </div>
+      </div>
+      <div class="layout">
+        <img class="image" src="./Images/Yaseen.jpg" alt="picture of Yaseen" />
+        <div>
+          <h2>Yaseen</h2>
+          <h3>position</h3>
+          <q>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
+            nesciunt amet, assumenda libero, doloribus molestias alias odio
+            neque voluptas, dolor fugit. Quis amet perspiciatis corporis quasi
+            sint repellat enim voluptates.
+          </q>
+        </div>
+      </div>
+      <div class="layout">
+        <img class="image" src="./Images/Ikraam.jpg" alt="picture of Ikraam" />
+        <div>
+          <h2>Ikraam</h2>
+          <h3>Developer</h3>
+          <q>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
+            nesciunt amet, assumenda libero, doloribus molestias alias odio
+            neque voluptas, dolor fugit. Quis amet perspiciatis corporis quasi
+            sint repellat enim voluptates.
+          </q>
+        </div>
+      </div>
+      <div class="layout">
+        <img class="image" src="./Images/Ashton.jpg" alt="picture of Ashton" />
+        <div>
+          <h2>Ashton</h2>
+          <h3>Developer</h3>
+          <q>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
+            nesciunt amet, assumenda libero, doloribus molestias alias odio
+            neque voluptas, dolor fugit. Quis amet perspiciatis corporis quasi
+            sint repellat enim voluptates.
+          </q>
+        </div>
+      </div>
+      <div class="layout">
+        <img class="image" src="./Images/Brent.jpg" alt="picture of Brent" />
+        <div>
+          <h2>Brent</h2>
+          <h3>Software Developer</h3>
+          <q>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
+            nesciunt amet, assumenda libero, doloribus molestias alias odio
+            neque voluptas, dolor fugit. Quis amet perspiciatis corporis quasi
+            sint repellat enim voluptates.
+          </q>
+        </div>
+      </div>
+      <div class="layout">
+        <img
+          class="image"
+          src="./Images/Yamkela.jpg"
+          alt="picture of Yamkela"
+        />
+        <div>
+          <h2>Yamkela</h2>
+          <h3>Developer</h3>
+          <q>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis
+            nesciunt amet, assumenda libero, doloribus molestias alias odio
+            neque voluptas, dolor fugit. Quis amet perspiciatis corporis quasi
+            sint repellat enim voluptates.
+          </q>
+        </div>
+      </div>
+    </div>
+    <!-- Script tags under here -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          margin: 50,
+          loop: true,
+          stagePadding: 100,
+          dots: false,
+          autoplay: true
+        });
+      });
+    </script>
+  </body>
+</html>
